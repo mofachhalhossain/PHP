@@ -1,10 +1,10 @@
-<?php 
+<h1>
+    <?php 
 
-$name = "John";
-$age = "35";
-$job = "teacher";
-
-echo "My name is ". $name. "and I am ". $age ." years old."."I am a ".$job ."<br>";
-echo "my name is $name and I am $age years old. I am a $job";
+$name = "Hona";
+$age = 23;
+$address = 'New York';
+echo("Hello i am $name my age $age and i am from $address");
 
 ?>
+</h1>

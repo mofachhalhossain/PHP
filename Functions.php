@@ -1,18 +1,13 @@
 <?php
 
-// function sum($a, $b){
-//     return $a + $b;
-// }
-
-// $result = sum(8,2);
-// echo "$result";
-
-$books = ['comic', 'story', 'drama', 'poet'];
-
-function output($value){
-    echo '<pre>';
-    print_r($value);
-    echo '</pre>';
+function search($arr, $target) {
+    for($i=0; $i<count($arr); $i++){
+        if($arr[$i] == $target){
+            echo "Found $target at index $i";
+        }
+    }
 }
-
-output($books);
+$arr = [1,2,3,4,5,6];
+$target = 4;
+search($arr, $target)
+?>

@@ -14,4 +14,4 @@ $books = [
     'romantic' => "first moment"
 ];
 
-echo ($books['thriler']);
+print_r($books);
